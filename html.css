@@ -1,0 +1,102 @@
+.container, .container2, .container3, .container4, .container5{
+	border: 2px solid black;
+	width: 75%;
+	margin: 0 auto;
+	text-align: center;
+
+
+	
+}
+/*.flex{
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	flex-direction: row;
+
+}*/
+.flex, .flex-box-container-2, .flex-box-container-3, .flex-box-4, .flexbox-5b, .flexbox-5a, .flexbox-5c{
+
+	display: flex;
+	border:2px solid black;	
+	flex-wrap: wrap;
+	flex-direction: row;
+	padding: 10px;
+	justify-content: space-around;
+	/*border-bottom: none;*/
+	/*border-right: none;border-left: none;*/
+}
+.flexbox-5a{
+	/*background: url('https://sironatherapeutichorsemanship.files.wordpress.com/2017/09/plain-green-wallpaper.jpg');*/
+	/*background-color: green;*/
+	background-image: url('https://sironatherapeutichorsemanship.files.wordpress.com/2017/09/plain-green-wallpaper.jpg');
+	color: #ffffff;
+}
+
+
+.flexbox-5a div{
+	/*display: flex;*/
+	border: 3px solid black;
+	padding: 10px;
+	height: 350px;
+	flex:1;
+
+}
+
+.flexbox-5a img{
+	padding: 10px;
+	width: 20%;
+}
+
+.flexbox-5b{
+	background-image: url('https://sironatherapeutichorsemanship.files.wordpress.com/2017/09/plain-green-wallpaper.jpg');
+	/*color: #ffffff;*/
+}
+.flexbox-5b button{
+	border: 2px solid black;
+	padding: 10px;
+
+}
+.flexbox-5b div{
+	border:2px solid black;
+	padding: 10px;
+}
+
+#result, #result2{
+	display: flex;
+	padding: 10px;
+	border: 2px solid black;
+	/*border-bottom: none;*/
+	align-items: center;
+	/*border-right: none;border-left: none;*/
+	font-size: 2em;
+	color: darkgreen;
+	text-align: center;
+	/*border-top: none;*/
+	font-weight: bold;
+}
+
+
+.flex-box-container-2 img{
+	/*border: 3px solid green;*/
+	margin: 10px;
+	box-shadow: 0px 10px 50px #444444;
+
+
+}
+
+.flex-box-container-3 img:hover{
+	box-shadow: 0px 10px 50px blue;
+}
+table, th, td{
+	padding: 5px;
+	border: 2px solid black;
+
+}
+
+
+
+
+
+
+
+
